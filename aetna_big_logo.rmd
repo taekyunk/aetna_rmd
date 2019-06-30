@@ -1,0 +1,45 @@
+---
+title: "Untitled"
+author: "Taekyun Kim"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+    ioslides_presentation:
+        widescreen: true
+        smaller: true
+        css: aetna_ioslides_big_logo.css
+        logo: Aetna_Logo_ss_Violet_RGB_Coated.svg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+Download logo from: https://www.aetna.com/content/dam/aetna/images/logos/Aetna_Logo_ss_Violet_RGB_Coated.svg
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+
+## Slide with Table
+
+```{r, echo = FALSE}
+knitr::kable(head(iris))
+```
+

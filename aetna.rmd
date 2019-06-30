@@ -1,0 +1,85 @@
+---
+title: "Untitled"
+author: "Taekyun Kim"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+    ioslides_presentation:
+        widescreen: true
+        smaller: true
+        css: aetna_ioslides.css
+        logo: Aetna_logo.svg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+Download Aetna logo from: https://upload.wikimedia.org/wikipedia/commons/8/8d/Aetna_logo.svg
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## Slide with Plot Centered {.centered}
+
+```{r}
+plot(pressure)
+```
+
+## Slide with Table
+
+```{r, echo = FALSE}
+knitr::kable(head(iris))
+```
+
+## Slide with datatable
+
+```{r, echo = FALSE}
+DT::datatable(iris)
+```
+
+## Center Text Vertically {.flexbox .vcenter}
+
+Some text here
+
+## Center Some Text Horizontally
+
+This is not centered
+
+<div class="centered">
+This text is centered.
+</div>
+
+## Center All Text Horizontally {.centered}
+
+This text should be centered.
+
+This line as well
+
+## Two Column {.columns-2}
+
+![](hex-tidyverse.png){width=80%}
+
+- Bullet A
+- Bullet B
+- Bullet C
+
+
+# Test
+

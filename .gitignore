@@ -1,0 +1,51 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+#
+# My personal ignore list to mainly deal with text documents (md, LaTeX)
+# T.K. Kim
+
+# Ubuntu backup files
+*~
+*.*~
+*.swp
+
+# temporary LaTeX objects
+# http://tex.stackexchange.com/questions/17845/which-auxiliary-latex-files-should-be-ignored-by-version-control-software
+*.aux
+*.pdf
+*.ps
+*.dvi
+*.log
+*.bak
+*.synctex
+*.gz
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+
+# Other types
+*.html
+*.docx
+~*
+
+# Figures (need to comment out for tex files)
+*.png
+*.jpg
+
+# Executables
+*.exe
+
+# R related files
+*.png
+*.RData
+*.txt
+.Rproj.user/*
+*.rds
+.Rhistory
+
+# temporary files 
+@*
+
+
+.Rproj.user
