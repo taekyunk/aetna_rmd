@@ -97,3 +97,24 @@ aside.gdbar {
   transition: all 0.5s ease-out 0.5s;
   /* Better to transition only on background-size, but not sure how to do that with the mixin. */
 }
+
+
+/*
+To change the table header to Aetna color
+Note that the color is set for background, not background-color
+*/
+table.rmdtable th {
+  background: #7d4095;
+  color: white;
+}
+
+
+slides > slide.dark {
+    background: #7d4095 !important;
+}
+
+.segue h2 {
+    color: white;
+    font-size: 60px;
+}
+
