@@ -6,7 +6,7 @@ output:
     ioslides_presentation:
         widescreen: true
         smaller: true
-        css: aetna_ioslides_big_logo.css
+        css: aetna_ioslides_with_heart.css
         logo: Aetna_Logo_ss_Violet_RGB_Coated.svg
 ---
 

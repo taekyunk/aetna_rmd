@@ -8,6 +8,8 @@ output:
         smaller: true
         css: aetna_ioslides.css
         logo: Aetna_logo.svg
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
