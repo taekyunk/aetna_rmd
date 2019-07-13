@@ -109,7 +109,7 @@ table.rmdtable th {
   color: white;
 }
 
-
+/* change the color of title slide made by one # */
 slides > slide.dark {
     background: #7d4095 !important;
 }
@@ -117,4 +117,23 @@ slides > slide.dark {
 .segue h2 {
     color: white;
     font-size: 60px;
+}
+
+/* 
+remove shades 
+https://stackoverflow.com/questions/35632032/configuring-ioslides-background-with-css
+not sure whether this works
+*/
+
+.title-slide {
+ background-color: white; 
+}
+
+slides > slide.backdrop {
+  background: white;
+}
+
+slides > slide.backdrop {
+  background: none !important;
+  background-color: white !important;
 }
