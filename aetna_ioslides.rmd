@@ -6,6 +6,7 @@ output:
     ioslides_presentation:
         widescreen: true
         smaller: true
+        transition: faster
         css: aetna_ioslides.css
         logo: Aetna_logo.svg
 editor_options: 
@@ -15,6 +16,10 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+# Title Slide
+
 
 ## R Markdown
 
@@ -81,7 +86,4 @@ This line as well
 - Bullet A
 - Bullet B
 - Bullet C
-
-
-# Title Slide
 
