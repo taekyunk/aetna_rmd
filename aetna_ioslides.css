@@ -137,3 +137,15 @@ slides > slide.backdrop {
   background: none !important;
   background-color: white !important;
 }
+
+.figure {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+table {
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+
